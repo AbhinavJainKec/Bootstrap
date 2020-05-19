@@ -74,3 +74,35 @@ body {
     position: absolute;
     bottom: 0px;
 }
+
+#LoginModal {
+    
+    .login-body{
+        background-color: $background-pale;
+    }
+
+    .login-header {
+        background: $background-dark;
+        color: $lt-grey;
+    
+        #LoginClose {
+            color: $background-pale;
+        }
+    }
+}
+
+#ReserveModal {
+
+    .reserve-body{
+        background-color: $background-pale;
+    }
+
+    .reserve-header {
+        background: $background-dark;
+        color: $lt-grey;
+    
+        #ReserveClose {
+            color: $background-pale;
+        }
+    }
+}

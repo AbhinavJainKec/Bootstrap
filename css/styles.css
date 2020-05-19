@@ -51,3 +51,21 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+#LoginModal .login-body {
+  background-color: #D1C4E9; }
+
+#LoginModal .login-header {
+  background: #512DA8;
+  color: #ddd; }
+  #LoginModal .login-header #LoginClose {
+    color: #D1C4E9; }
+
+#ReserveModal .reserve-body {
+  background-color: #D1C4E9; }
+
+#ReserveModal .reserve-header {
+  background: #512DA8;
+  color: #ddd; }
+  #ReserveModal .reserve-header #ReserveClose {
+    color: #D1C4E9; }
