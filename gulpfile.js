@@ -63,7 +63,7 @@ gulp.task('usemin', function() {
         .pipe(usemin({
             css: [rev()],
             html: [ function() { return htmlmin({ collapseWhitespace: true})}],
-            js: [ uglify(), re()],
+            js: [ uglify(), rev()],
             inlinejs: [ uglify()],
             inlinecss: [ cleanCss(), 'concat']
         }))
